@@ -1,8 +1,8 @@
 /* Ammo Swapper by hetoan2 */
 # Note: most of this 'code' is just setting variables. They ARE needed to function properly!
 
-.set ammo1,defaultweapon_mp		#first ammo to be switched
-.set a1replacer,kiparisdw_mp	#first ammo switched to
+.set ammo1,Uzi		#first ammo to be switched
+.set a1replacer,AK74u	#first ammo switched to
 
 #comment all additional ammo swaps you don't want /*this notation is good!*/
 .set ammo2,defaultweapon_mp		#2nd ammo to be switched
@@ -153,10 +153,125 @@
 .set m202_flash_mp,1428 
 
 #
-#	add reasonable names later here
+#	reasonable names list
 #
 
-
+.set Default_Weapon,defaultweapon_mp
+.set Kiparis_Dual_Wield,kiparisdw_mp
+.set MAC11_Dual_Wield,mac11dw_mp
+.set PM63_Dual_Wield,pm63dw_mp
+.set Skorpion_Dual_Wield,skorpiondw_mp
+.set MP5K_Dual_Wield,mp5k_mp
+.set Skorpion,skorpion_mp
+.set mac11_mp,MAC11
+ 
+.set AK74u,ak74u_mp,
+.set Uzi,uzi_mp
+.set PM63,pm63_mp
+.set MPL,mpl_mp
+.set Spectre,spectre_mp
+.set Kiparis,kiparis_mp
+.set M16,m16_mp
+.set Enfield,enfield_mp
+ 
+.set M14,m14_mp
+.set Famas,famas_mp
+.set Galil,galil_mp
+.set AUG,aug_mp
+.set FN_FAL,fnfal_mp
+.set AK47,ak47_mp
+.set Commando,commando_mp
+.set G11,g11_mp
+ 
+.set HS-10_Dual_Wield,hs10dw_mp
+.set Olympia,rottweil72_mp
+.set Ithaca_M37,ithaca_mp
+.set SPAS-12,spas_mp
+.set HS-10,hs10_mp
+.set HK21,hk21_mp
+.set RPK,rpk_mp
+.set M60,m60_mp
+ 
+.set Stoner63,stoner63_mp
+.set Dragunov,dragunov_mp
+.set WA2000,wa2000_mp
+.set L96A1,l96a1_mp
+.set PSG1,psg1_mp
+.set ASP_Dual_Wield,aspdw_mp
+.set CZ75_Dual_Wield,cz75dw_mp
+.set M1911_Dual_Wield,m1911dw_mp
+ 
+.set Makarov_Dual_Wield,makarovdw_mp
+.set Python_Dual_Wield,pythondw_mp
+.set ASP,asp_mp
+.set M1911,m1911_mp
+.set Makarov,makarov_mp
+.set Python,python_mp
+.set CZ75,cz75_mp
+.set M72_LAW,m72_law_mp
+ 
+.set RPG-7,rpg_mp
+.set Strela-3,strela_mp
+.set China_Lake,china_lake_mp
+.set Ballistic_Knife,knife_ballistic_mp
+.set Crossbow,crossbow_explosive_mp
+.set C4,satchel_charge_mp
+.set Claymore,claymore_mp
+.set Frag_Grenade,frag_grenade_mp
+ 
+.set Willy_Pete,willy_pete_mp
+.set Semtex,sticky_grenade_mp
+.set Nova_Gas,tabun_gas_mp
+.set Tomahawk,hatchet_mp
+.set Flashbang,flash_grenade_mp
+.set Tactical_Insertion,tactical_insertion_mp
+.set Concussion,concussion_grenade_mp
+.set Decoy,scrambler_mp
+ 
+.set Nightingale,nightingale_mp
+.set Motion Sensor,acoustic_sensor_mp
+.set Syrette,syrette_mp
+.set Destructible_Car,destructible_car_mp
+.set Explodable_Barrel,explodable_barrel_mp
+.set Dog_Bite,dog_bite_mp
+.set Knife,knife_mp
+.set Dogs,dogs_mp
+ 
+.set Explosive_Bolt,explosive_bolt_mp
+.set Napalm_Blob,napalmblob_mp
+.set Scavenger_Item,scavenger_item_mp
+.set Nova_Tiny,tabun_tiny_mp
+.set Nova_Small,tabun_small_mp
+.set Nova_Medium,tabun_medium_mp
+.set Nova_Large,tabun_large_mp
+.set Nova_Center,tabun_center_mp
+ 
+.set Smoke_Center,smoke_center_mp
+.set Briefcase_Bomb,briefcase_bomb_mp
+.set Briefcase,briefcase_bomb_defuse_mp
+.set Cobra_20mm,cobra_20mm_comlink_mp
+.set Helicopter,helicopter_comlink_mp
+.set Rolling_Thunder,airstrike_mp
+.set Napalmground_Large,napalmground_lg_mp
+.set Napalmground_Small,napalmground_sm_mp
+ 
+.set Napalm_Strike,napalm_mp
+.set Mortar_Team,mortar_mp
+.set Spy_Splane,radar_mp
+.set Counter-Spy_Plane,counteruav_mp
+.set Blackbird,radardirection_mp
+.set RC-XD_Vehicle,rc_car_weapon_mp
+.set RC-XD,rcbomb_mp
+.set Care_Package,supplydrop_mp
+ 
+.set SAM Turret,auto_gun_turret_mp
+.set Tow_Turret,tow_turret_mp
+.set Auto_Turret,autoturret_mp
+.set Sentry_Gun,turret_drop_mp
+.set Auto_Tow,auto_tow_mp
+.set SAM Turret,tow_turret_drop_mp
+.set Mini-Gun,minigun_mp
+.set Grim_Reaper,m202_flash_mp
 
 #
 #	actual code below here
