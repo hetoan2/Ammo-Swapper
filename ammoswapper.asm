@@ -277,7 +277,7 @@
 #	actual code below here
 #
 
-.set codeaddress,0x803849F8
+.set codeaddress,0x80384BAC
 .set length,end1-stackframe
 .set align,(length%8==0)*-0x60000000
 .set numlines,(length+4)/8+(length%8==0)*-1
