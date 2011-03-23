@@ -165,7 +165,7 @@
 .set Skorpion,skorpion_mp
 .set mac11_mp,MAC11
  
-.set AK74u,ak74u_mp,
+.set AK74u,ak74u_mp
 .set Uzi,uzi_mp
 .set PM63,pm63_mp
 .set MPL,mpl_mp
@@ -183,11 +183,11 @@
 .set Commando,commando_mp
 .set G11,g11_mp
  
-.set HS-10_Dual_Wield,hs10dw_mp
+.set HS_10_Dual_Wield,hs10dw_mp
 .set Olympia,rottweil72_mp
 .set Ithaca_M37,ithaca_mp
-.set SPAS-12,spas_mp
-.set HS-10,hs10_mp
+.set SPAS_12,spas_mp
+.set HS_10,hs10_mp
 .set HK21,hk21_mp
 .set RPK,rpk_mp
 .set M60,m60_mp
@@ -210,8 +210,8 @@
 .set CZ75,cz75_mp
 .set M72_LAW,m72_law_mp
  
-.set RPG-7,rpg_mp
-.set Strela-3,strela_mp
+.set RPG_7,rpg_mp
+.set Strela_3,strela_mp
 .set China_Lake,china_lake_mp
 .set Ballistic_Knife,knife_ballistic_mp
 .set Crossbow,crossbow_explosive_mp
@@ -229,7 +229,7 @@
 .set Decoy,scrambler_mp
  
 .set Nightingale,nightingale_mp
-.set Motion Sensor,acoustic_sensor_mp
+.set Motion_Sensor,acoustic_sensor_mp
 .set Syrette,syrette_mp
 .set Destructible_Car,destructible_car_mp
 .set Explodable_Barrel,explodable_barrel_mp
@@ -258,19 +258,19 @@
 .set Napalm_Strike,napalm_mp
 .set Mortar_Team,mortar_mp
 .set Spy_Splane,radar_mp
-.set Counter-Spy_Plane,counteruav_mp
+.set Counter_Spy_Plane,counteruav_mp
 .set Blackbird,radardirection_mp
-.set RC-XD_Vehicle,rc_car_weapon_mp
-.set RC-XD,rcbomb_mp
+.set RCXD_Vehicle,rc_car_weapon_mp
+.set RCXD,rcbomb_mp
 .set Care_Package,supplydrop_mp
  
-.set SAM Turret,auto_gun_turret_mp
+.set SAM_Turret,auto_gun_turret_mp
 .set Tow_Turret,tow_turret_mp
 .set Auto_Turret,autoturret_mp
 .set Sentry_Gun,turret_drop_mp
 .set Auto_Tow,auto_tow_mp
-.set SAM Turret,tow_turret_drop_mp
-.set Mini-Gun,minigun_mp
+.set SAM_Turret,tow_turret_drop_mp
+.set Mini_Gun,minigun_mp
 .set Grim_Reaper,m202_flash_mp
 
 #
